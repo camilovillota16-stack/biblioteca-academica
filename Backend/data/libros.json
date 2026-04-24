@@ -1,227 +1,227 @@
 [
-  {
-    "id": 1,
-    "titulo": "Introducción a la Programación",
-    "autor": "Carlos Ramírez",
-    "isbn": "978-1001",
-    "categoria": "Ingeniería > Programación > Fundamentos",
-    "anio": 2020,
-    "disponible": true
-  },
-  {
-    "id": 2,
-    "titulo": "Estructuras de Datos en Java",
-    "autor": "María Gómez",
-    "isbn": "978-1002",
-    "categoria": "Ingeniería > Programación > Estructuras de Datos",
-    "anio": 2021,
-    "disponible": true
-  },
-  {
-    "id": 3,
-    "titulo": "Algoritmos y Complejidad",
-    "autor": "Andrés López",
-    "isbn": "978-1003",
-    "categoria": "Ingeniería > Programación > Algoritmos",
-    "anio": 2019,
-    "disponible": false
-  },
-  {
-    "id": 4,
-    "titulo": "Desarrollo Web Moderno",
-    "autor": "Laura Torres",
-    "isbn": "978-1004",
-    "categoria": "Ingeniería > Programación > Desarrollo Web",
-    "anio": 2022,
-    "disponible": true
-  },
-  {
-    "id": 5,
-    "titulo": "Bases de Datos Relacionales",
-    "autor": "Jorge Martínez",
-    "isbn": "978-1005",
-    "categoria": "Ingeniería > Bases de Datos > SQL",
-    "anio": 2018,
-    "disponible": true
-  },
-  {
-    "id": 6,
-    "titulo": "Modelado de Bases de Datos",
-    "autor": "Patricia Ruiz",
-    "isbn": "978-1006",
-    "categoria": "Ingeniería > Bases de Datos > Modelado",
-    "anio": 2020,
-    "disponible": false
-  },
-  {
-    "id": 7,
-    "titulo": "Sistemas Operativos",
-    "autor": "Fernando Castro",
-    "isbn": "978-1007",
-    "categoria": "Ingeniería > Sistemas > Sistemas Operativos",
-    "anio": 2017,
-    "disponible": true
-  },
-  {
-    "id": 8,
-    "titulo": "Redes de Computadores",
-    "autor": "Sandra Méndez",
-    "isbn": "978-1008",
-    "categoria": "Ingeniería > Sistemas > Redes",
-    "anio": 2019,
-    "disponible": true
-  },
-  {
-    "id": 9,
-    "titulo": "Cálculo Diferencial",
-    "autor": "Luis Herrera",
-    "isbn": "978-1009",
-    "categoria": "Ciencias Básicas > Matemáticas > Cálculo",
-    "anio": 2016,
-    "disponible": true
-  },
-  {
-    "id": 10,
-    "titulo": "Álgebra Lineal Aplicada",
-    "autor": "Natalia Vargas",
-    "isbn": "978-1010",
-    "categoria": "Ciencias Básicas > Matemáticas > Álgebra",
-    "anio": 2018,
-    "disponible": false
-  },
-  {
-    "id": 11,
-    "titulo": "Estadística para Ingeniería",
-    "autor": "Ricardo Peña",
-    "isbn": "978-1011",
-    "categoria": "Ciencias Básicas > Matemáticas > Estadística",
-    "anio": 2021,
-    "disponible": true
-  },
-  {
-    "id": 12,
-    "titulo": "Física Mecánica",
-    "autor": "Camila Rojas",
-    "isbn": "978-1012",
-    "categoria": "Ciencias Básicas > Física > Mecánica",
-    "anio": 2015,
-    "disponible": true
-  },
-  {
-    "id": 13,
-    "titulo": "Electricidad y Magnetismo",
-    "autor": "Óscar Molina",
-    "isbn": "978-1013",
-    "categoria": "Ciencias Básicas > Física > Electromagnetismo",
-    "anio": 2019,
-    "disponible": false
-  },
-  {
-    "id": 14,
-    "titulo": "Metodología de la Investigación",
-    "autor": "Elena Pardo",
-    "isbn": "978-1014",
-    "categoria": "Humanidades > Investigación > Metodología",
-    "anio": 2020,
-    "disponible": true
-  },
-  {
-    "id": 15,
-    "titulo": "Comunicación Oral y Escrita",
-    "autor": "Diana Salazar",
-    "isbn": "978-1015",
-    "categoria": "Humanidades > Comunicación > Escritura",
-    "anio": 2017,
-    "disponible": true
-  },
-  {
-    "id": 16,
-    "titulo": "Ética Profesional",
-    "autor": "Miguel Cárdenas",
-    "isbn": "978-1016",
-    "categoria": "Humanidades > Ética > Profesional",
-    "anio": 2021,
-    "disponible": true
-  },
-  {
-    "id": 17,
-    "titulo": "Ingeniería de Software",
-    "autor": "Roger Pressman",
-    "isbn": "978-1017",
-    "categoria": "Ingeniería > Software > Procesos",
-    "anio": 2021,
-    "disponible": false
-  },
-  {
-    "id": 18,
-    "titulo": "Patrones de Diseño",
-    "autor": "Erich Gamma",
-    "isbn": "978-1018",
-    "categoria": "Ingeniería > Software > Diseño",
-    "anio": 2019,
-    "disponible": true
-  },
-  {
-    "id": 19,
-    "titulo": "Arquitectura de Computadores",
-    "autor": "William Stallings",
-    "isbn": "978-1019",
-    "categoria": "Ingeniería > Sistemas > Arquitectura",
-    "anio": 2018,
-    "disponible": true
-  },
-  {
-    "id": 20,
-    "titulo": "Inteligencia Artificial Básica",
-    "autor": "Ana Beltrán",
-    "isbn": "978-1020",
-    "categoria": "Ingeniería > Inteligencia Artificial > Fundamentos",
-    "anio": 2022,
-    "disponible": true
-  },
-  {
-    "id": 21,
-    "titulo": "Aprendizaje Automático",
-    "autor": "Felipe Ortega",
-    "isbn": "978-1021",
-    "categoria": "Ingeniería > Inteligencia Artificial > Machine Learning",
-    "anio": 2023,
-    "disponible": false
-  },
-  {
-    "id": 22,
-    "titulo": "Programación en Python",
-    "autor": "Sofía Navarro",
-    "isbn": "978-1022",
-    "categoria": "Ingeniería > Programación > Python",
-    "anio": 2020,
-    "disponible": true
-  },
-  {
-    "id": 23,
-    "titulo": "Programación Orientada a Objetos",
-    "autor": "Hernán Gil",
-    "isbn": "978-1023",
-    "categoria": "Ingeniería > Programación > POO",
-    "anio": 2018,
-    "disponible": true
-  },
-  {
-    "id": 24,
-    "titulo": "Gestión de Proyectos",
-    "autor": "Claudia Medina",
-    "isbn": "978-1024",
-    "categoria": "Administración > Proyectos > Gestión",
-    "anio": 2021,
-    "disponible": true
-  },
-  {
-    "id": 25,
-    "titulo": "Emprendimiento e Innovación",
-    "autor": "Juan Pablo Reyes",
-    "isbn": "978-1025",
-    "categoria": "Administración > Innovación > Emprendimiento",
-    "anio": 2022,
-    "disponible": false
-  }
+    {
+        "id": 1,
+        "titulo": "Introducción a la Programación",
+        "autor": "Carlos Ramírez",
+        "isbn": "978-1001",
+        "categoria": "Ingeniería > Programación > Fundamentos",
+        "anio": 2020,
+        "disponible": true
+    },
+    {
+        "id": 2,
+        "titulo": "Estructuras de Datos en Java",
+        "autor": "María Gómez",
+        "isbn": "978-1002",
+        "categoria": "Ingeniería > Programación > Estructuras de Datos",
+        "anio": 2021,
+        "disponible": true
+    },
+    {
+        "id": 3,
+        "titulo": "Algoritmos y Complejidad",
+        "autor": "Andrés López",
+        "isbn": "978-1003",
+        "categoria": "Ingeniería > Programación > Algoritmos",
+        "anio": 2019,
+        "disponible": false
+    },
+    {
+        "id": 4,
+        "titulo": "Desarrollo Web Moderno",
+        "autor": "Laura Torres",
+        "isbn": "978-1004",
+        "categoria": "Ingeniería > Programación > Desarrollo Web",
+        "anio": 2022,
+        "disponible": true
+    },
+    {
+        "id": 5,
+        "titulo": "Bases de Datos Relacionales",
+        "autor": "Jorge Martínez",
+        "isbn": "978-1005",
+        "categoria": "Ingeniería > Bases de Datos > SQL",
+        "anio": 2018,
+        "disponible": true
+    },
+    {
+        "id": 6,
+        "titulo": "Modelado de Bases de Datos",
+        "autor": "Patricia Ruiz",
+        "isbn": "978-1006",
+        "categoria": "Ingeniería > Bases de Datos > Modelado",
+        "anio": 2020,
+        "disponible": false
+    },
+    {
+        "id": 7,
+        "titulo": "Sistemas Operativos",
+        "autor": "Fernando Castro",
+        "isbn": "978-1007",
+        "categoria": "Ingeniería > Sistemas > Sistemas Operativos",
+        "anio": 2017,
+        "disponible": true
+    },
+    {
+        "id": 8,
+        "titulo": "Redes de Computadores",
+        "autor": "Sandra Méndez",
+        "isbn": "978-1008",
+        "categoria": "Ingeniería > Sistemas > Redes",
+        "anio": 2019,
+        "disponible": true
+    },
+    {
+        "id": 9,
+        "titulo": "Cálculo Diferencial",
+        "autor": "Luis Herrera",
+        "isbn": "978-1009",
+        "categoria": "Ciencias Básicas > Matemáticas > Cálculo",
+        "anio": 2016,
+        "disponible": true
+    },
+    {
+        "id": 10,
+        "titulo": "Álgebra Lineal Aplicada",
+        "autor": "Natalia Vargas",
+        "isbn": "978-1010",
+        "categoria": "Ciencias Básicas > Matemáticas > Álgebra",
+        "anio": 2018,
+        "disponible": false
+    },
+    {
+        "id": 11,
+        "titulo": "Estadística para Ingeniería",
+        "autor": "Ricardo Peña",
+        "isbn": "978-1011",
+        "categoria": "Ciencias Básicas > Matemáticas > Estadística",
+        "anio": 2021,
+        "disponible": true
+    },
+    {
+        "id": 12,
+        "titulo": "Física Mecánica",
+        "autor": "Camila Rojas",
+        "isbn": "978-1012",
+        "categoria": "Ciencias Básicas > Física > Mecánica",
+        "anio": 2015,
+        "disponible": true
+    },
+    {
+        "id": 13,
+        "titulo": "Electricidad y Magnetismo",
+        "autor": "Óscar Molina",
+        "isbn": "978-1013",
+        "categoria": "Ciencias Básicas > Física > Electromagnetismo",
+        "anio": 2019,
+        "disponible": false
+    },
+    {
+        "id": 14,
+        "titulo": "Metodología de la Investigación",
+        "autor": "Elena Pardo",
+        "isbn": "978-1014",
+        "categoria": "Humanidades > Investigación > Metodología",
+        "anio": 2020,
+        "disponible": true
+    },
+    {
+        "id": 15,
+        "titulo": "Comunicación Oral y Escrita",
+        "autor": "Diana Salazar",
+        "isbn": "978-1015",
+        "categoria": "Humanidades > Comunicación > Escritura",
+        "anio": 2017,
+        "disponible": true
+    },
+    {
+        "id": 16,
+        "titulo": "Ética Profesional",
+        "autor": "Miguel Cárdenas",
+        "isbn": "978-1016",
+        "categoria": "Humanidades > Ética > Profesional",
+        "anio": 2021,
+        "disponible": true
+    },
+    {
+        "id": 17,
+        "titulo": "Ingeniería de Software",
+        "autor": "Roger Pressman",
+        "isbn": "978-1017",
+        "categoria": "Ingeniería > Software > Procesos",
+        "anio": 2021,
+        "disponible": false
+    },
+    {
+        "id": 18,
+        "titulo": "Patrones de Diseño",
+        "autor": "Erich Gamma",
+        "isbn": "978-1018",
+        "categoria": "Ingeniería > Software > Diseño",
+        "anio": 2019,
+        "disponible": true
+    },
+    {
+        "id": 19,
+        "titulo": "Arquitectura de Computadores",
+        "autor": "William Stallings",
+        "isbn": "978-1019",
+        "categoria": "Ingeniería > Sistemas > Arquitectura",
+        "anio": 2018,
+        "disponible": true
+    },
+    {
+        "id": 20,
+        "titulo": "Inteligencia Artificial Básica",
+        "autor": "Ana Beltrán",
+        "isbn": "978-1020",
+        "categoria": "Ingeniería > Inteligencia Artificial > Fundamentos",
+        "anio": 2022,
+        "disponible": true
+    },
+    {
+        "id": 21,
+        "titulo": "Aprendizaje Automático",
+        "autor": "Felipe Ortega",
+        "isbn": "978-1021",
+        "categoria": "Ingeniería > Inteligencia Artificial > Machine Learning",
+        "anio": 2023,
+        "disponible": false
+    },
+    {
+        "id": 22,
+        "titulo": "Programación en Python",
+        "autor": "Sofía Navarro",
+        "isbn": "978-1022",
+        "categoria": "Ingeniería > Programación > Python",
+        "anio": 2020,
+        "disponible": true
+    },
+    {
+        "id": 23,
+        "titulo": "Programación Orientada a Objetos",
+        "autor": "Hernán Gil",
+        "isbn": "978-1023",
+        "categoria": "Ingeniería > Programación > POO",
+        "anio": 2018,
+        "disponible": true
+    },
+    {
+        "id": 24,
+        "titulo": "Gestión de Proyectos",
+        "autor": "Claudia Medina",
+        "isbn": "978-1024",
+        "categoria": "Administración > Proyectos > Gestión",
+        "anio": 2022,
+        "disponible": true
+    },
+    {
+        "id": 25,
+        "titulo": "Emprendimiento e Innovación",
+        "autor": "Juan Pablo Reyes",
+        "isbn": "978-1025",
+        "categoria": "Administración > Innovación > Emprendimiento",
+        "anio": 2022,
+        "disponible": false
+    }
 ]
