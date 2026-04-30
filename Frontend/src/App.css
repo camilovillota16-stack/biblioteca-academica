@@ -345,3 +345,49 @@ select {
   color: #374151 !important;
   cursor: not-allowed;
 } }
+
+    .modo-edicion {
+  border: 2px solid #f59e0b;
+  box-shadow: 0 12px 30px rgba(245, 158, 11, 0.25);
+}
+
+.modo-edicion h2 {
+  color: #92400e;
+}
+
+.panel-algoritmos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-bottom: 18px;
+}
+
+.panel-algoritmos article {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-left: 6px solid #2563eb;
+  border-radius: 18px;
+  padding: 18px;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+}
+
+.panel-algoritmos h3 {
+  margin: 0 0 8px;
+  color: #1e3a8a;
+}
+
+.panel-algoritmos p {
+  margin: 0 0 10px;
+  color: #475569;
+  line-height: 1.4;
+}
+
+.panel-algoritmos strong {
+  color: #111827;
+}
+
+@media (max-width: 900px) {
+  .panel-algoritmos {
+    grid-template-columns: 1fr;
+  }
+}

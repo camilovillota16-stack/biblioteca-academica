@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import "./App.css";
 
 const API_URL = "http://127.0.0.1:8000";
@@ -23,6 +23,7 @@ function App() {
   const [error, setError] = useState("");
   const [editando, setEditando] = useState(false);
   const [cargando, setCargando] = useState(false);
+  const formularioRef = useRef(null);
 
   useEffect(() => {
     cargarLibros();
@@ -174,20 +175,27 @@ function App() {
     }
   };
 
-  const editarLibro = (libro) => {
-    setFormulario({
-      id: String(libro.id),
-      titulo: libro.titulo,
-      autor: libro.autor,
-      isbn: libro.isbn,
-      categoria: libro.categoria,
-      anio: String(libro.anio),
-      disponible: libro.disponible,
-    });
+ const editarLibro = (libro) => {
+  setFormulario({
+    id: String(libro.id),
+    titulo: libro.titulo,
+    autor: libro.autor,
+    isbn: libro.isbn,
+    categoria: libro.categoria,
+    anio: String(libro.anio),
+    disponible: libro.disponible,
+  });
 
-    setEditando(true);
-    mostrarMensaje(`Editando el libro: ${libro.titulo}`);
-  };
+  setEditando(true);
+  mostrarMensaje(`Editando el libro: ${libro.titulo}`);
+
+  setTimeout(() => {
+    formularioRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  }, 100);
+};
 
   const eliminarLibro = async (id) => {
     const confirmar = window.confirm("¿Seguro que deseas eliminar este libro?");
@@ -254,10 +262,30 @@ function App() {
 
       {mensaje && <div className="mensaje exito">{mensaje}</div>}
       {error && <div className="mensaje error">{error}</div>}
+      
+        <section className="panel-algoritmos">
+  <article>
+    <h3>Búsqueda lineal</h3>
+    <p>Busca por título, autor, ISBN o categoría.</p>
+    <strong>Complejidad: O(n)</strong>
+  </article>
+
+  <article>
+    <h3>Merge Sort</h3>
+    <p>Ordena libros por título, autor, año o disponibilidad.</p>
+    <strong>Complejidad: O(n log n)</strong>
+  </article>
+
+  <article>
+    <h3>Recursión</h3>
+    <p>Recorre el árbol de categorías y subcategorías.</p>
+    <strong>Complejidad: O(n)</strong>
+  </article>
+</section>
 
       <section className="grid-principal">
-        <section className="tarjeta">
-          <h2>{editando ? "Editar libro" : "Registrar libro"}</h2>
+       <section className={`tarjeta ${editando ? "modo-edicion" : ""}`} ref={formularioRef}>
+  <h2>{editando ? "Editar libro" : "Registrar libro"}</h2>
 
           <form onSubmit={guardarLibro} className="formulario">
             <div className="campo">
